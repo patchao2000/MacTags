@@ -1,0 +1,12 @@
+prefix=/Users/patchao2000/Documents/Xcode/tagliblib
+exec_prefix=/Users/patchao2000/Documents/Xcode/tagliblib
+libdir=/Users/patchao2000/Documents/Xcode/tagliblib/lib
+includedir=/Users/patchao2000/Documents/Xcode/tagliblib/include
+
+
+Name: TagLib C Bindings
+Description: Audio meta-data library (C bindings)
+Requires: taglib
+Version: 1.9.1
+Libs: -L/Users/patchao2000/Documents/Xcode/tagliblib/lib -ltag_c
+Cflags: -I/Users/patchao2000/Documents/Xcode/tagliblib/include/taglib 
