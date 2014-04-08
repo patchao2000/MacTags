@@ -8,8 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class MTMainWindowController;
+
 @interface MTAppDelegate : NSObject <NSApplicationDelegate>
+{
+    MTMainWindowController *mainWindowController;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+
+- (IBAction)createMainWindow:(id)sender;
 
 @end

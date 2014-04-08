@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		604C1D2018F3F2E300FADEA0 /* EntryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604C1D1F18F3F2E300FADEA0 /* EntryView.xib */; };
+		604C1D2318F3F45C00FADEA0 /* MTEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604C1D2218F3F45C00FADEA0 /* MTEntryViewController.m */; };
+		604C1D2518F3F4CE00FADEA0 /* InspectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604C1D2418F3F4CE00FADEA0 /* InspectorView.xib */; };
+		604C1D2818F3F4F000FADEA0 /* MTInspectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604C1D2718F3F4F000FADEA0 /* MTInspectorViewController.m */; };
+		604C1D2B18F3F59800FADEA0 /* MTMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604C1D2A18F3F59800FADEA0 /* MTMainWindowController.m */; };
+		604C1D2D18F3FBC900FADEA0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604C1D2C18F3FBC900FADEA0 /* MainWindow.xib */; };
 		607B62C018EAB89400EE0570 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607B62BF18EAB89400EE0570 /* Cocoa.framework */; };
 		607B62CA18EAB89400EE0570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607B62C818EAB89400EE0570 /* InfoPlist.strings */; };
 		607B62CC18EAB89400EE0570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 607B62CB18EAB89400EE0570 /* main.m */; };
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		604C1D1F18F3F2E300FADEA0 /* EntryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntryView.xib; sourceTree = "<group>"; };
+		604C1D2118F3F45C00FADEA0 /* MTEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEntryViewController.h; sourceTree = "<group>"; };
+		604C1D2218F3F45C00FADEA0 /* MTEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEntryViewController.m; sourceTree = "<group>"; };
+		604C1D2418F3F4CE00FADEA0 /* InspectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorView.xib; sourceTree = "<group>"; };
+		604C1D2618F3F4F000FADEA0 /* MTInspectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTInspectorViewController.h; sourceTree = "<group>"; };
+		604C1D2718F3F4F000FADEA0 /* MTInspectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTInspectorViewController.m; sourceTree = "<group>"; };
+		604C1D2918F3F59800FADEA0 /* MTMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMainWindowController.h; sourceTree = "<group>"; };
+		604C1D2A18F3F59800FADEA0 /* MTMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMainWindowController.m; sourceTree = "<group>"; };
+		604C1D2C18F3FBC900FADEA0 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		607B62BC18EAB89400EE0570 /* MacTags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607B62BF18EAB89400EE0570 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		607B62C218EAB89400EE0570 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -243,10 +258,19 @@
 				607B62D118EAB89400EE0570 /* MTAppDelegate.h */,
 				607B62D218EAB89400EE0570 /* MTAppDelegate.m */,
 				607B62D418EAB89400EE0570 /* MainMenu.xib */,
+				604C1D2C18F3FBC900FADEA0 /* MainWindow.xib */,
 				607B62D718EAB89400EE0570 /* Images.xcassets */,
 				607B62C618EAB89400EE0570 /* Supporting Files */,
 				607B636B18EAC2A500EE0570 /* MTTest.h */,
 				607B636C18EAC2A500EE0570 /* MTTest.mm */,
+				604C1D1F18F3F2E300FADEA0 /* EntryView.xib */,
+				604C1D2418F3F4CE00FADEA0 /* InspectorView.xib */,
+				604C1D2618F3F4F000FADEA0 /* MTInspectorViewController.h */,
+				604C1D2718F3F4F000FADEA0 /* MTInspectorViewController.m */,
+				604C1D2118F3F45C00FADEA0 /* MTEntryViewController.h */,
+				604C1D2218F3F45C00FADEA0 /* MTEntryViewController.m */,
+				604C1D2918F3F59800FADEA0 /* MTMainWindowController.h */,
+				604C1D2A18F3F59800FADEA0 /* MTMainWindowController.m */,
 			);
 			path = MacTags;
 			sourceTree = "<group>";
@@ -512,7 +536,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604C1D2D18F3FBC900FADEA0 /* MainWindow.xib in Resources */,
+				604C1D2518F3F4CE00FADEA0 /* InspectorView.xib in Resources */,
 				607B62CA18EAB89400EE0570 /* InfoPlist.strings in Resources */,
+				604C1D2018F3F2E300FADEA0 /* EntryView.xib in Resources */,
 				607B62D818EAB89400EE0570 /* Images.xcassets in Resources */,
 				607B62D018EAB89400EE0570 /* Credits.rtf in Resources */,
 				607B62D618EAB89400EE0570 /* MainMenu.xib in Resources */,
@@ -534,7 +561,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604C1D2318F3F45C00FADEA0 /* MTEntryViewController.m in Sources */,
+				604C1D2B18F3F59800FADEA0 /* MTMainWindowController.m in Sources */,
 				607B62CC18EAB89400EE0570 /* main.m in Sources */,
+				604C1D2818F3F4F000FADEA0 /* MTInspectorViewController.m in Sources */,
 				607B636D18EAC2A500EE0570 /* MTTest.mm in Sources */,
 				607B62D318EAB89400EE0570 /* MTAppDelegate.m in Sources */,
 			);
@@ -763,6 +793,7 @@
 				607B62EF18EAB89400EE0570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		607B62F018EAB89400EE0570 /* Build configuration list for PBXNativeTarget "MacTagsTests" */ = {
 			isa = XCConfigurationList;
@@ -771,6 +802,7 @@
 				607B62F218EAB89400EE0570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
