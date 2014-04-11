@@ -17,30 +17,16 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+            <rect key="contentRect" x="196" y="240" width="750" height="500"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <rect key="frame" x="0.0" y="0.0" width="750" height="500"/>
                 <autoresizingMask key="autoresizingMask"/>
             </view>
         </window>
-        <splitView dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vrc-OR-rjY">
-            <rect key="frame" x="0.0" y="0.0" width="163" height="96"/>
+        <splitView dividerStyle="thin" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vrc-OR-rjY">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="294"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <subviews>
-                <customView fixedFrame="YES" id="XLb-4o-Nd6">
-                    <rect key="frame" x="0.0" y="0.0" width="77" height="96"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                </customView>
-                <customView fixedFrame="YES" id="bbO-Tt-n5Z">
-                    <rect key="frame" x="87" y="0.0" width="76" height="96"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                </customView>
-            </subviews>
-            <holdingPriorities>
-                <real value="250"/>
-                <real value="250"/>
-            </holdingPriorities>
         </splitView>
     </objects>
 </document>

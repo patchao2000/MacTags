@@ -10,4 +10,6 @@
 
 @interface MTEntryViewController : NSViewController
 
+@property (weak,readonly) NSTableView *entryTable;
+
 @end

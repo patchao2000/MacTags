@@ -10,6 +10,8 @@
 
 @interface MTEntryViewController ()
 
+@property (weak) IBOutlet NSTableView *entryTable;
+
 @end
 
 @implementation MTEntryViewController
